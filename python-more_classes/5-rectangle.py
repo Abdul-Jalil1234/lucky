@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+This module defines a Rectangle class.
+"""
+
 
 class Rectangle:
     """Defines a rectangle with validation and instance tracking."""
@@ -54,7 +58,7 @@ class Rectangle:
 
     def __repr__(self):
         """Returns a string to recreate the instance using eval()."""
-        return f"Rectangle({self.__width}, {self.__height})"
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
     def __del__(self):
         """Prints a message when an instance is deleted."""
