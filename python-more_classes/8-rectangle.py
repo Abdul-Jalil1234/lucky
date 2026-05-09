@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class with instance tracking, 
-customizable print symbols, and comparison logic.
+This module defines a Rectangle class.
 """
 
 
