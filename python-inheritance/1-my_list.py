@@ -17,4 +17,3 @@ class MyList(list):
         The original list remains unchanged after this operation.
         """
         print(sorted(self))
-
