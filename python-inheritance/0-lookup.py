@@ -11,4 +11,3 @@ def lookup(obj):
     The result is a list containing the names of these members as strings.
     """
     return dir(obj)
-
